@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DOMINGO — Portfolio</title>
+  <meta name="description" content="Portfolio of Molebatso. Projects, skills and contact." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("success") === "true") {
+    alert(" Message sent successfully!");
+  }
+</script>
+
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Molebatso</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="cta" href="#contact">Hire me</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Hi, I'm DOMINGO.</h2>
+          <p class="lead">I’m a Junior Software Developer and Salesforce Administrator with experience in building
+secure and scalable applications using Java, C#, Python, and modern web technologies.
+I also specialize in Salesforce, where I design and automate business processes using
+Flows, Apex, and CRM solutions.</p>
+          <p class="hero-actions">
+              <a class="btn" href="#projects">View projects</a>
+              <a class="btn btn-outline" href="#contact">Contact</a>
+              <a class="btn btn-cv" href="D:\files\Assets\Molebatso Maesela_CV.pdf" download>
+              <i class="fa-solid fa-download"></i> Download CV
+             </a>
+          </p>
+
+        </div>
+       <div class="hero-image">
+         <div class="profile-frame">
+          <!-- Replace with your headshot or illustration -->
+          <img src="D:\files\images\migoz.jpeg" alt="Molebatso headshot" />
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>I enjoy solving real-world problems by developing efficient systems, from web applications
+to enterprise CRM platforms. I am passionate about continuous learning, improving my skills,
+and delivering solutions that create real impact.</p>
+        <p><strong>Quick facts:</strong> Available for freelance & full-time roles.</p>
+      
+      
+      </div>
+    </section>
+
+  <section id="projects" class="section">
+  <div class="container">
+    <h2>Projects</h2>
+    <p class="muted">Some of the real-world systems I have worked on.</p>
+
+    <div class="projects-grid">
+
+      <!-- Queue Management System -->
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Queue Management System</h3>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+
+        <p>
+          A smart clinic queue management system designed to reduce long waiting times at public clinics.
+          Patients can book appointments from their phones before arriving, receive queue numbers digitally,
+          and track their turn in real-time. The system helps clinics manage patient flow efficiently and
+          improves time management for both staff and patients.
+        </p>
+
+        <div class="project-tags">
+          <span>Java</span>
+          <span>HTML</span>
+          <span>SQL</span>
+          <span>Mobile Booking</span>
+          <span>Queue Tracking</span>
+        </div>
+      </div>
+
+      <!-- Leave Management System -->
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Leave Management System</h3>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+
+        <p>
+          A web-based leave management system that allows employees to apply for leave online while
+          managers review and approve requests. HR can monitor leave balances, track attendance,
+          and generate reports, helping organisations manage staff leave efficiently.
+        </p>
+
+        <div class="project-tags">
+          <span>ASP.NET Core</span>
+          <span>SQL Server</span>
+          <span>Role-Based Access</span>
+          <span>HR Dashboard</span>
+        </div>
+      </div>
+
+      <!-- Salesforce Loan Management System -->
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Salesforce Loan Management System</h3>
+          <div class="project-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+
+        <p>
+          A Salesforce-based loan management solution that manages the full loan lifecycle from
+          customer enquiry to approval and post-loan support using automation, approval processes,
+          and CRM security controls.
+        </p>
+
+        <div class="project-tags">
+          <span>Salesforce</span>
+          <span>Sales Cloud</span>
+          <span>Service Cloud</span>
+          <span>Flows & Automation</span>
+        </div>
+        <span class="in-progress">In Progress</span>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+   <section id="skills" class="section skills-section">
+  <div class="container">
+    <h2 class="skills-title">Technical Skills</h2>
+
+    <div class="skills-categories">
+
+      <div class="skills-box">
+        <h3>Backend</h3>
+        <div class="skills-tags">
+          <span>Java</span>
+          <span>Python</span>
+          <span>C#</span>
+          <span>REST APIs</span>
+          <span>SQL</span>
+        </div>
+      </div>
+
+      <div class="skills-box">
+        <h3>Frontend</h3>
+        <div class="skills-tags">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Responsive UI</span>
+        </div>
+      </div>
+
+      <div class="skills-box">
+        <h3>Databases</h3>
+        <div class="skills-tags">
+          <span>MySQL</span>
+          <span>PostgreSQL</span>
+          <span>SQL Server</span>
+          <span>Database Design</span>
+        </div>
+      </div>
+
+      <div class="skills-box">
+        <h3>DevOps & Tools</h3>
+        <div class="skills-tags">
+          <span>Git & GitHub</span>
+          <span>Docker</span>
+          <span>Linux</span>
+          <span>CI/CD</span>
+          <span>AWS Basics</span>
+        </div>
+      </div>
+
+      <div class="skills-box">
+        <h3>Cybersecurity</h3>
+        <div class="skills-tags">
+          <span>Security Basics</span>
+          <span>Access Control</span>
+          <span>Vulnerability Awareness</span>
+          <span>Secure Coding</span>
+        </div>
+      </div>
+
+      <div class="skills-box salesforce">
+        <h3>Salesforce</h3>
+        <div class="skills-tags">
+          <span>Apex</span>
+          <span>Triggers</span>
+          <span>LWC</span>
+          <span>SOQL / SOSL</span>
+          <span>Flows</span>
+          <span>REST API</span>
+          <span>Security & Profiles</span>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="contact" class="contact-section">
+  <div class="contact-container">
+
+    <!-- LEFT SIDE INFO -->
+    <div class="contact-info">
+      <h2>Get In Touch</h2>
+
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <h4>Email</h4>
+          <p>molebatsodomingo@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <i class="fab fa-github"></i>
+        <div>
+          <h4>GitHub</h4>
+          <p>github.com/yourusername</p>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <i class="fab fa-linkedin"></i>
+        <div>
+          <h4>LinkedIn</h4>
+          <p>
+  <a href="https://www.linkedin.com/in/molebatso-domingo-maesela-255959264"
+     target="_blank"
+     class="contact-link">
+     linkedin.com/in/molebatso-domingo-maesela-255959264
+  </a>
+</p>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE FORM -->
+    <div class="contact-form-box">
+      <h3>Send a Message</h3>
+      <form action="https://formsubmit.co/molebatsodomingo@gmail.com" method="POST">
+  
+  <input type="text" name="name" placeholder="Your Name" required>
+  
+  <input type="email" name="email" placeholder="Your Email" required>
+  
+  <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+  <!-- Prevent spam -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- Redirect after submit -->
+  <input type="hidden" name="_next" value="https://yourusername.github.io/Portfolio/?success=true">
+
+  <button type="submit">
+    <i class="fas fa-paper-plane"></i> Send Message
+  </button>
+</form>
+
+    </div>
+
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="current-year"></span> Molebatso — Built with ❤️</p>
+    </div>
+  </footer>
+
+  <!-- Project modal -->
+  <div id="project-modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close" onclick="closeModal()">×</button>
+      <h3 id="modal-title"></h3>
+      <img id="modal-image" src="" alt="" />
+      <p id="modal-desc"></p>
+      <p><a id="modal-link" href="#" target="_blank" rel="noopener">View project</a></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
